@@ -71,7 +71,7 @@ void stackPrint(struct Stack * stack)
 int main()
 {
     int n,i,choice;
-    enum {Create=1,Push=2,Pop=3,Peek=4,IsFull=5,IsEmpty=6,Exit=7};
+    enum stackChoice{Create=1,Push=2,Pop=3,Peek=4,IsFull=5,IsEmpty=6,Exit=7};
     struct Stack *stack = (struct Stack *)malloc(sizeof(struct Stack));
     stack->top=-1;
     do
