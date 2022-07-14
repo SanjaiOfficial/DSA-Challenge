@@ -1,5 +1,3 @@
 *.exe
-<<<<<<< HEAD
+*.o
 .vscode/
-=======
->>>>>>> 953fd57efb3b01b5ee4cec675e08c4bc849a0838
